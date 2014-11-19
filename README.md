@@ -4,7 +4,7 @@ academe-app-tau
 career development app
 
 
-Developed by Acade-me crew
+Developed by Acade-Me crew
 
 Michael Niv
 
