@@ -7,7 +7,7 @@
   to see this page in browser
 
   -->
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8" />
 
@@ -41,15 +41,13 @@
 
       <div class="navbar navbar-app navbar-absolute-top">
           <a href="#/" >
-              <div class="navbar-brand navbar-brand-center" yield-to="title">
-                  <span>Mobile Angular UI</span>
-              </div>
+              <img src="icons/logo.png" />
           </a>
 
 
-        <div class="btn-group pull-left">
+        <div class="btn-group pull-right">
           <div ng-click="toggle('mainSidebar')" class="btn btn-navbar sidebar-toggle">
-            <i class="fa fa-bars"></i> Menu
+            <i class="fa fa-bars"></i>
           </div>
         </div>
 
@@ -57,9 +55,21 @@
 
       <div class="navbar navbar-app navbar-absolute-bottom">
         <div class="btn-group justified">
-          <a href="#/tabs" class="btn btn-navbar"><i class="fa fa-home fa-navbar"></i> tabs</a>
-          <a href="#/accordion" class="btn btn-navbar"><i class="fa fa-github fa-navbar"></i> accordion</a>
-          <a href="#/forms" class="btn btn-navbar"><i class="fa fa-exclamation-circle fa-navbar"></i> forms</a>
+          <a href="#/" class="btn btn-navbar">
+              <img src="icons/profile.png" />
+          </a>
+          <a href="#/accordion" class="btn btn-navbar">
+              <img src="icons/jobs.png" />
+          </a>
+          <a href="#/forms" class="btn btn-navbar">
+              <img src="icons/agent.png" />
+          </a>
+          <a href="#/forms" class="btn btn-navbar">
+              <img src="icons/managment.png" />
+          </a>
+          <a href="#/forms" class="btn btn-navbar">
+              <img src="icons/messeges.png" />
+          </a>
         </div>
       </div>
 

@@ -90,3 +90,82 @@ h1 {
 .carousel-inner>.item.active + .item {
   z-index: 1999;
 }
+
+/* Jonatan Edit */
+
+.navbar-absolute-top {
+    background: #0080c4;
+    border: none;
+}
+
+.scrollable-content {
+    background: #EBEBEB;
+}
+
+.panel-group .panel {
+    margin-bottom: 4px;
+    border-radius: 0;
+}
+
+.panel-title {
+    color: #333;
+    font-size: 35px;
+}
+
+.panel-default>.panel-heading {
+    background: #FFF;
+}
+
+.panel-default {
+    border-color: #ccc;
+}
+
+.panel-body {
+    padding-top: 0 !important;
+}
+
+html .panel-group .panel-title {
+    line-height: 50px;
+}
+
+hr {
+    margin: 0 0 6px 0;
+    border-color: #ccc;
+}
+
+#profile_picture {
+    border: 1px solid #ccc;
+    max-width: 40%;
+    margin-bottom: 20px;
+}
+
+#username_container {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0 10px 20px 0;
+    font-size: 40px;
+}
+
+.edit_button {
+    float: left;
+    width: 65px;
+    margin-top: 15px;
+}
+
+.sidebar-toggle {
+    margin-top: 30%;
+    color: #fff !important;
+    line-height: 100% !important;
+    font-size: 24px;
+
+}
+
+@media (min-width: 992px) {
+    .sidebar-toggle {
+        display: inline-block;
+    }
+}
+
+.app {
+    background: #ccc;
+}

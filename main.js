@@ -5,7 +5,7 @@ var app = angular.module('MobileAngularUiExamples', [
 ]);
 
 app.config(function($routeProvider, $locationProvider) {
-  $routeProvider.when('/',          {templateUrl: "home.html"});
+  $routeProvider.when('/',          {templateUrl: "demo/accordion.html"});
   $routeProvider.when('/scroll',    {templateUrl: "demo/scroll.html"});
   $routeProvider.when('/toggle',    {templateUrl: "demo/toggle.html"});
   $routeProvider.when('/tabs',      {templateUrl: "demo/tabs.html"});
