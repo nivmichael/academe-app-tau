@@ -92,6 +92,60 @@ h1 {
 }
 
 /* Jonatan Edit */
+.logo {
+    margin: 10px
+}
+
+.has-navbar-top .app-body {
+    padding-top: 58px !important;
+    padding-bottom: 62px !important;
+}
+
+.profile-tab {
+    height: 61px;
+    background: url('icons/profile.png') no-repeat center !important;
+    background-size: contain !important;
+}
+.profile-tab.active {
+    background: url('icons/profile_active.png') no-repeat center !important;
+    background-size: contain !important;
+}
+
+.jobs-tab {
+    background: url('icons/jobs.png') no-repeat center !important;
+    background-size: contain !important;
+}
+.jobs-tab.active {
+    background: url('icons/jobs_active.png') no-repeat center !important;
+    background-size: contain !important;
+}
+
+.agent-tab {
+    background: url('icons/agent.png') no-repeat center !important;
+    background-size: contain !important;
+}
+.agent-tab.active {
+    background: url('icons/agent_active.png') no-repeat center !important;
+    background-size: contain !important;
+}
+
+.managment-tab {
+    background: url('icons/managment.png') no-repeat center !important;
+    background-size: contain !important;
+}
+.managment-tab.active {
+    background: url('icons/managment_active.png') no-repeat center !important;
+    background-size: contain !important;
+}
+
+.messeges-tab {
+    background: url('icons/messeges.png') no-repeat center !important;
+    background-size: contain !important;
+}
+.messeges-tab.active {
+    background: url('icons/messeges_active.png') no-repeat center !important;
+    background-size: contain !important;
+}
 
 .navbar-absolute-top {
     background: #0080c4;
@@ -109,10 +163,12 @@ h1 {
 
 .panel-title {
     color: #333;
-    font-size: 35px;
+    font-size: 2em;
 }
 
 .panel-default>.panel-heading {
+    position: relative !important;
+    padding: 0 15px !important;
     background: #FFF;
 }
 
@@ -121,11 +177,25 @@ h1 {
 }
 
 .panel-body {
+    padding: 5px !important;
     padding-top: 0 !important;
 }
 
+.panel-body div {
+    padding: 0 10px 10px;
+}
+
+.panel-body table {
+    width: 100%
+}
+
+th {
+    vertical-align: top;
+    padding-left: 10px;
+}
+
 html .panel-group .panel-title {
-    line-height: 50px;
+    line-height: 45px;
 }
 
 hr {
@@ -147,9 +217,10 @@ hr {
 }
 
 .edit_button {
-    float: left;
+    position: absolute;
     width: 65px;
-    margin-top: 15px;
+    top: -35px;
+    left: 5px;
 }
 
 .sidebar-toggle {
@@ -168,4 +239,31 @@ hr {
 
 .app {
     background: #ccc;
+}
+
+.panel-collapse.in {
+    position: relative
+}
+
+.star {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+.star img {
+    height: 22px;
+}
+
+.apply_job {
+    float: left !important;
+    padding: 15px 0 0 0 !important;
+}
+
+.jobs-username #profile_picture {
+    max-width: 20%;
+}
+
+.job-btn {
+    border-radius: 0 !important;
 }
